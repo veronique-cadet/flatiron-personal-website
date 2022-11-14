@@ -1,3 +1,170 @@
 body {
-  background: blue;
+  font-family: "helvetica";
+  font-weight: 400;
+  color: #393939;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Header*/
+
+.header {
+  background-color: greenyellow;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.header__title {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.313rem;
+  padding-left: 9rem;
+}
+
+/* Navigation*/
+
+.navigation {
+  font-size: 1.313rem;
+  font-weight: 400;
+}
+
+.navigation_list {
+  display: inline-block;
+  padding: 0;
+  margin-left: 30rem;
+}
+
+.navigation__item {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 5rem;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #393939;
+}
+
+.navigation__link--active {
+  color: #5bacc3;
+}
+
+.navigation-image {
+  margin-left: 1.875rem;
+}
+
+/*Main*/
+
+.hero__landing {
+  background-color: white;
+  padding-left: 9rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: inline-block;
+}
+
+.hero {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+}
+
+.hero__title {
+  margin: 0;
+}
+
+.hero__description {
+  inline-size: 22rem;
+  margin-bottom: 2rem;
+}
+
+.hero___button {
+  background-color: greenyellow;
+  font-size: 1.3125em;
+  font-weight: 400;
+  color: white;
+  border: 0;
+  padding: 0.75rem 2.188rem;
+  text-decoration: none;
+}
+
+.hero__image {
+  padding-left: 50rem;
+  max-width: 100%;
+  max-height: 50%;
+  position: absolute;
+  top: 8rem;
+  left: 0.1rem;
+  padding-right: 20rem;
+  margin-bottom: 10rem;
+}
+
+/*Footer*/
+
+footer {
+  background-color: greenyellow;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.footer_cardheader {
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
+.footer_cardheader--socials {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+.footer__address {
+  display: inline-block;
+  margin-right: 4em;
+  text-align: left;
+  margin-left: 10rem;
+}
+
+.footer__hours {
+  display: inline-block;
+  margin-left: 4rem;
+  margin-right: 4em;
+  text-align: left;
+}
+
+.footer__socials {
+  display: inline-block;
+  margin-left: 4rem;
+  margin-right: 6em;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.footer__text {
+  margin: 0;
+}
+
+.footer__icons {
+  width: 3.125rem;
+}
+
+h3 {
+  font-size: 2.0625em;
+  font-weight: 300;
+}
+h2 {
+  font-size: 3.75em;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3.75em;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.125em;
+  font-weight: 400;
+  font-style: normal;
 }
