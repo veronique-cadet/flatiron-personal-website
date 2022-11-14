@@ -47,10 +47,6 @@ body {
   color: #393939;
 }
 
-.navigation__link--active {
-  color: #5bacc3;
-}
-
 .navigation-image {
   margin-left: 1.875rem;
 }
@@ -77,16 +73,16 @@ body {
 
 .hero__description {
   inline-size: 22rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
-.hero___button {
+.hero__button {
   background-color: greenyellow;
   font-size: 1.3125em;
   font-weight: 400;
   color: white;
   border: 0;
-  padding: 0.75rem 2.188rem;
+  padding: 1rem 2.188rem;
   text-decoration: none;
 }
 
@@ -143,10 +139,12 @@ footer {
 
 .footer__text {
   margin: 0;
+  color: #393939;
+  text-decoration: none;
 }
 
 .footer__icons {
-  width: 3.125rem;
+  width: 3;
 }
 
 h3 {
